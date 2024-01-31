@@ -25,12 +25,5 @@
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="kotlin.kotlin.references.types.hints.hints.type.variable" />
-    <settingsMapElement>
-      <kotlin.kotlin.references.types.hints>
-        <Settings>
-          <option name="localVariableType" value="true" />
-        </Settings>
-      </kotlin.kotlin.references.types.hints>
-    </settingsMapElement>
   </component>
 </application>
