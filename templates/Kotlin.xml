@@ -1,0 +1,15 @@
+<templateSet group="Kotlin">
+  <template name="doccompl" value="@return a [Completable] that will&#10;* - complete: when $COMPLETE$&#10;* - error: when $ERROR$$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPLETE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ERROR" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="docobserve" value="@return an [Observable] that will&#10;* - emit: $EMIT$&#10;* - complete: when $COMPLETE$&#10;* - error: when $ERROR$$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="EMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMPLETE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ERROR" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="docsingle" value="@return a [Single] that will&#10;* - success: when $COMPLETE$&#10;* - error: when $ERROR$$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPLETE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ERROR" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
