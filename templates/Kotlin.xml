@@ -1,12 +1,12 @@
 <templateSet group="Kotlin">
-  <template name="doccomplete" value="@return a [Completable] that will&#10;* - complete: when $COMPLETE$&#10;* - error: when $ERROR$$END$" toReformat="false" toShortenFQNames="true">
+  <template name="doccomplete" value="@return a [Completable] that will&#10;* - complete: when $COMPLETE$&#10;* - error: when $ERROR$$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="COMPLETE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ERROR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_COMMENT" value="true" />
     </context>
   </template>
-  <template name="docobserve" value="@return an [Observable] that will&#10;* - emit: $EMIT$&#10;* - complete: when $COMPLETE$&#10;* - error: when $ERROR$$END$" toReformat="false" toShortenFQNames="true">
+  <template name="docobserve" value="@return an [Observable] that will&#10;* - emit: $EMIT$&#10;* - complete: when $COMPLETE$&#10;* - error: when $ERROR$$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="EMIT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="COMPLETE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ERROR" expression="" defaultValue="" alwaysStopAt="true" />
@@ -14,7 +14,7 @@
       <option name="KOTLIN_COMMENT" value="true" />
     </context>
   </template>
-  <template name="docsingle" value="@return a [Single] that will&#10;* - success: when $COMPLETE$&#10;* - error: when $ERROR$$END$" toReformat="false" toShortenFQNames="true">
+  <template name="docsingle" value="@return a [Single] that will&#10;* - success: when $COMPLETE$&#10;* - error: when $ERROR$$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="COMPLETE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ERROR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
