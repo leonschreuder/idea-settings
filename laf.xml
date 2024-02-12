@@ -3,7 +3,6 @@
     <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" themeId="ExperimentalDark" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="Darcula" scheme="_@user_Dark" />
-      <laf-to-scheme laf="Dark" scheme="Semagic" />
       <laf-to-scheme laf="JustSemantics" scheme="_@user_Dark" />
     </lafs-to-previous-schemes>
   </component>
